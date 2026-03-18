@@ -2,16 +2,16 @@ package src.es.uah.matcomp.mp.e1.ejerciciosclases.ejerciciosclase1;
 
 public class Main {
     public static void main(String[] args) {
-        shape s1 = new circle(5.5, "red", false);  // Upcast Circle to Shape
-        System.out.println(s1);                    // which version?
-        System.out.println(s1.getArea());          // which version?
-        System.out.println(s1.getPerimeter());     // which version?
+        shape s1 = new circle(5.5, "red", false);  // Upcast Circle to Shape. s1 se define como shape pero es circulo
+        System.out.println(s1);                    // which version?polimorfismo
+        System.out.println(s1.getArea());          // which version?polimorfismo
+        System.out.println(s1.getPerimeter());     // which version?polimorfismo
         System.out.println(s1.getColor());
         System.out.println(s1.isFilled());
-        ((circle) s1).getRadius();
+        ((circle) s1).getRadius();//acceder a radio
         //System.out.println(s1.getRadius()); Esto es un error porque getRadius no esta definido en shape, y como s1 es de tipo shape no lo reconoce.
 
-        circle c1 = (circle)s1;                   // Downcast back to Circle
+        circle c1 = (circle)s1;                   // Downcast back to Circle.circle originalmente
         System.out.println(c1);
         System.out.println(c1.getArea());
         System.out.println(c1.getPerimeter());

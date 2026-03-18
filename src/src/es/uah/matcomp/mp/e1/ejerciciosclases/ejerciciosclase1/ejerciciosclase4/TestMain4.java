@@ -3,6 +3,7 @@ package src.es.uah.matcomp.mp.e1.ejerciciosclases.ejerciciosclase1.ejercicioscla
 public class TestMain4 {
     public static void main (String[] args) {
 
+        //Creamos un punto con sus datos y calculamos sus movimientos
         movable m1 = new movablepoint(3,4,6,8);
         System.out.println(m1);
         m1.moveUp();
@@ -13,6 +14,8 @@ public class TestMain4 {
         System.out.println(m1);
         m1.moveRight();
         System.out.println(m1);
+
+        //Creamos un circulo con sus datos y calculamos movimientos
 
         movable m2 = new movablecircle(2,7,4,6,8);
         System.out.println(m2);
