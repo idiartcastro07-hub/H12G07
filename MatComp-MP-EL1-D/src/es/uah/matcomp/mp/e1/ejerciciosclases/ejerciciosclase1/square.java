@@ -2,6 +2,7 @@ package src.es.uah.matcomp.mp.e1.ejerciciosclases.ejerciciosclase1;
 
 public class square extends rectangle {
 
+    //Constructores
     public square () {
 
     }
@@ -16,6 +17,7 @@ public class square extends rectangle {
 
     }
 
+    //getters y setters
     public double getSide () {
         return getWidth();
     }
@@ -40,5 +42,5 @@ public class square extends rectangle {
     @Override
     public String toString () {
         return "Square [" +super.toString()+ "]";
-    }
+    }//imprime resultado
 }

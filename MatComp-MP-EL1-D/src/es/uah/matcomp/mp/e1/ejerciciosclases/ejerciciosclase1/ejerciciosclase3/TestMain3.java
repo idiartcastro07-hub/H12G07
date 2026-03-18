@@ -1,9 +1,10 @@
 package src.es.uah.matcomp.mp.e1.ejerciciosclases.ejerciciosclase1.ejerciciosclase3;
 
-
+//Programa probador
 public class TestMain3 {
     public static void main(String[] args) {
 
+        //Creamos movable point con sus respectivos valores  y calculamos sus datos
         movable m1 = new movablepoint(3,4,6,2);
         System.out.println(m1);
         m1.moveUp();

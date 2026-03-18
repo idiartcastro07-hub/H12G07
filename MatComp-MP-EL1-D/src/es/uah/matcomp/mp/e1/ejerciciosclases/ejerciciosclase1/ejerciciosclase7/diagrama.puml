@@ -12,7 +12,7 @@ class dog extends animal {
 +greeting (dog: another): void
 }
 
-class bigdog extends animal {
+class bigdog extends dog {
 +greeting (): void
 +greeting (dog: another)
 +greeting (bigdog: another)
