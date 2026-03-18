@@ -1,0 +1,21 @@
+@startuml
+abstract class animal {
++greeting (): void
+}
+
+class cat extends animal {
++greeting (): void
+}
+
+class dog extends animal {
++greeting (): void
++greeting (dog: another): void
+}
+
+class bigdog extends dog {
++greeting (): void
++greeting (dog: another)
++greeting (bigdog: another)
+}
+@enduml
+
